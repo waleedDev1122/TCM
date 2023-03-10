@@ -1,0 +1,246 @@
+/* @font-face {
+    font-family: "BodoniModa";
+    src: url(assets/fonts/static/BodoniModa_9pt/BodoniModa_9pt-Black.ttf);
+}
+
+@font-face {
+    font-family: "BodoniModaBold";
+    src: url(assets/fonts/static/BodoniModa_48pt/BodoniModa_48pt-Bold.ttf);
+}
+
+body {
+    font-family: "BodoniModa";
+} */
+
+.bodoni-font{
+    font-family: ltc-bodoni-175, serif !important;
+}
+
+.proxima-nova-font{
+    font-family: proxima-nova, sans-serif !important;
+}
+
+.container {
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.navbar {
+    height: 94px;
+}
+
+.fixed-header{
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.header-padding{
+    padding-top: 94px;
+}
+
+.header-box-shadow {
+    box-shadow: 0px 10px 20px 0px #f8f8f8;
+}
+
+.main-heading{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 155.3%;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+
+.sub-head {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 155.3%;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+
+.basic-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #000000;
+}
+
+.about-sub-head {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 155.3%;
+    letter-spacing: 0.08em;
+    color: #000000;
+    text-align: center;
+}
+
+.about-basic-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.content-card {
+    width: 80%;
+    padding: 20px 40px;
+    border: 1px solid rgba(216, 197, 225, 0.7);
+    box-shadow: 0px 2px 22px 0px rgb(52 52 52 / 9%);
+    border-radius: 16px;
+}
+
+.container {
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.nav-item:last-child {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.nav-link {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-family: proxima-nova, sans-serif !important;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #333333 !important;
+    border-bottom: 2px solid #333333;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #333333;
+}
+
+.signup-btn {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 120px;
+    height: 46px;
+    background: #0051FF;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: #FCFCFC;
+
+}
+
+.contact-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    width: 180px;
+    height: 46px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #333333;
+}
+
+.links span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.links a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+.links i {
+    color: #0051FF;
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+
+    .navbar-collapse {
+        background-color: #fff;
+        z-index: 2;
+    }
+
+    .nav-item {
+        padding: 10px 10px;
+    }
+}
+
+
+.mobile-display-none{
+    display: none;
+}
+
+.modal-container {
+    width: 100%;
+    height: calc(100vh - 94px);
+}
+
+.carousel-inner .carousel-item {
+    height: 300px;
+    overflow: hidden;
+}
+
+.gallery-img-container{
+    max-height: 170px;
+    overflow: hidden;
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+/* @media (max-width: 767.98px) {
+    .desktop-display-none {
+        display: none;
+    }
+
+    .mobile-display-none {
+        display: block;
+        height: 100vh;
+    }
+
+} */
