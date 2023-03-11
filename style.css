@@ -116,11 +116,6 @@ body {
     padding: 0px 20px;
 }
 
-.nav-item:last-child {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
 .nav-link {
     display: block;
     font-style: normal;
@@ -198,6 +193,11 @@ body {
     color: #0051FF;
 }
 
+.contact-img-height{
+    max-height: 533px;
+    overflow-y: hidden;
+}
+
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
 
@@ -209,6 +209,10 @@ body {
 
     .nav-item {
         padding: 10px 10px;
+    }
+
+    .content-card {
+        width: 100%;
     }
 }
 
@@ -230,6 +234,7 @@ body {
 .gallery-img-container{
     max-height: 170px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 /* // Small devices (landscape phones, less than 768px) */
